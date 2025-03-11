@@ -18,14 +18,14 @@ Ejemplos:
 
 
 ## Ejercicio 2: Roque
-Agregar a Roque, que es una persona
+Agregar a Roque, que es una persona.
 
 ### Ave de roque
-Tiene un ave, a veces es Pepona, a veces es Pepita, por lo tanto tiene que entender un mensaje para que se le indique cual es su ave. Inicialmente es pepita.
+Tiene un ave, a veces es Pepona, a veces es Pepita, por lo tanto tiene que entender un mensaje para que se le indique cual es su ave. Inicialmente es Pepita.
 
 ### Alimentar
 
- Entiende el mensaje *alimentar*, que recibe un alimento por parámetro. Al recibir este mensaje roque alimenta a su ave. 
+ Entiende el mensaje *alimentar*, que recibe un alimento por parámetro. Al recibir este mensaje Roque alimenta a su ave. 
 
 Ejemplos:
 - Si tiene a Pepona con energía de 30, y recibe el mensaje alimentar(alpiste) pepon queda con 40 de energía
@@ -38,18 +38,17 @@ Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de vec
 
 ## Ejercicio 3: Excepciones
 Las aves cada una tiene sus virtudes y defectos, por lo que a veces no pueden hacer lo que se les pide.
- Pepita al querer volar debe ener suficiente energia, si no se amotina y no te vuela nada, lanzando una excepción.
- Pepona también, pero puede hacer un último vuelo, solo cuando su energia es 0 o menos lanza una excepción!
- 
+ Pepita y Pepona al querer volar deben tener suficiente energia, si no se amotinan y no te vuela nada, lanzando una excepción.
+  
 Se pide 
 * Implementar las validacionesa y consultas correspondientes realizando las modificaciones a los objetos ya resueltos para garantizar que un ave no puede volar bajo dada condiciones. 
 
 Ejemplos: 
- Suponiendo que pepita tiene energia 100 y Pepona 30.
+ Suponiendo que Pepita tiene energia 100 y Pepona 30.
  
- * Tanto pepita como pepon pueden volar 4 kms.
- * Pepona no puede volar 6 kms. Por lo tanto milena no puede movilizarlas. (Si se intenta movilizarlas ambas deben quedar con su energia inicial)
- * Pepona puede volar 100kms pero luego al no tener energia no puede volar.
+ * Tanto Pepita como Pepona pueden volar 4 kms.
+ * Pepona no puede volar 6 kms.
+ * Ninguna puede volar 100 kms.
 
 ## Ejercicio BONUS: Excepciones al comer
  Pepona cuida su figura, por lo que controla su ingesta calórica, si tiene 50 o más de energía no puede comer más hasta ejercitarse un poco, por ejemplo volando.
@@ -61,7 +60,7 @@ Ejemplos:
  Suponiendo Pepona tiene 30 de enrgia puede comer.
  
  * Puede comer alpiste 2 veces porque su energia queda en 50, pero luego si intenta comer nuevamente tanto el alpiste como la manzana no puede.
- * Si luego vuela 1km puede volver a comer por ejemplo la manzana.
+ * Si luego vuela 1 km puede volver a comer algo, por ejemplo la manzana.
  
 ## Ejercicio BONUS: Milena
 
