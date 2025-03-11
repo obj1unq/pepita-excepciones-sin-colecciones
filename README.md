@@ -57,7 +57,7 @@ Se pide
 * Implementar las validacionesa y consultas correspondientes realizando las modificaciones en Pepona, para garantizar que no puede comer si tiene 50 o más de energia. 
 
 Ejemplos: 
- Suponiendo Pepona tiene 30 de enrgia puede comer.
+ Suponiendo Pepona tiene 30 de energia.
  
  * Puede comer alpiste 2 veces porque su energia queda en 50, pero luego si intenta comer nuevamente tanto el alpiste como la manzana no puede.
  * Si luego vuela 1 km puede volver a comer algo, por ejemplo la manzana.
