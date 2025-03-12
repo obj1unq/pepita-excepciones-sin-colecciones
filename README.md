@@ -51,16 +51,16 @@ Ejemplos:
  * Ninguna puede volar 100 kms.
 
 ## Ejercicio BONUS: Excepciones al comer
- Pepona cuida su figura, por lo que controla su ingesta calórica, si tiene 50 o más de energía no puede comer más hasta ejercitarse un poco, por ejemplo volando.
+ Pepona es delicada con su alimentación, por lo que le gusta solo comer variado. Si se le da de comer lo mismo que comió la última vez se niega.
 
 Se pide 
-* Implementar las validacionesa y consultas correspondientes realizando las modificaciones en Pepona, para garantizar que no puede comer si tiene 50 o más de energia. 
+* Implementar las validacionesa y consultas correspondientes realizando las modificaciones en Pepona, para garantizar que no puede comer la misma comida que comió la última vez.
 
 Ejemplos: 
- Suponiendo Pepona tiene 30 de energia.
+ Suponiendo que Pepona tiene 30 de energia.
  
- * Puede comer alpiste 2 veces porque su energia queda en 50, pero luego si intenta comer nuevamente tanto el alpiste como la manzana no puede.
- * Si luego vuela 1 km puede volver a comer algo, por ejemplo la manzana.
+ * Puede comer alpiste, quedando su energia en 40. Pero ai luego intenta comer alpiste nuevamente no puede, quedando em 40 su energia.
+ * Si luego come manzana lo hace sin problema, pero luego no puede comer manzana otra vez pero si alpiste.
  
 ## Ejercicio BONUS: Milena
 
