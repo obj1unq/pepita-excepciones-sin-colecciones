@@ -36,7 +36,7 @@ Ejemplos:
 Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de veces que Roque dio de alimentar a su ave desde que es la suya (pensar como hacer para recordar este dato y que pasa al cambiar de ave).
 
 
-## Ejercicio 3: Excepciones
+## Ejercicio 3: Excepciones al volar
 Las aves cada una tiene sus virtudes y defectos, por lo que a veces no pueden hacer lo que se les pide.
  Pepita y Pepona al querer volar deben tener suficiente energia, si no se amotinan y no te vuela nada, lanzando una excepción.
   
@@ -51,18 +51,18 @@ Ejemplos:
  * Ninguna puede volar 100 kms.
 
 ## Ejercicio BONUS: Excepciones al comer
- Pepona es delicada con su alimentación, por lo que le gusta solo comer variado. Si se le da de comer lo mismo que comió la última vez se niega.
+ Pepona es delicada con su alimentación, por lo que le gusta solo comer variado. Si se le da de comer lo mismo que comió la última vez se niega. Por defecto comió manzana la última vez.
 
 Se pide 
 * Implementar las validacionesa y consultas correspondientes realizando las modificaciones en Pepona, para garantizar que no puede comer la misma comida que comió la última vez.
 
 Ejemplos: 
- Suponiendo que Pepona tiene 30 de energia.
+ Suponiendo que Pepona tiene 30 de energia y comió manzana la última vez.
  
  * Puede comer alpiste, quedando su energia en 40. Pero ai luego intenta comer alpiste nuevamente no puede, quedando em 40 su energia.
  * Si luego come manzana lo hace sin problema, pero luego no puede comer manzana otra vez pero si alpiste.
  
-## Ejercicio BONUS: Milena
+## Ejercicio BONUS: Milena la entrenadora
 
 Milena es una entrenadora de aves que puede entrenar a varias a la vez. Cuando Milena recibe el mensaje movilizar(distancia), hace que todas sus aves se muevan esa distancia.
 
