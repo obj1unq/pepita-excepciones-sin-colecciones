@@ -38,10 +38,10 @@ Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de vec
 
 ## Ejercicio 3: Excepciones al volar
 Las aves cada una tiene sus virtudes y defectos, por lo que a veces no pueden hacer lo que se les pide.
- Pepita y Pepón al querer volar deben tener suficiente energia, si no se amotinan y no te vuela nada, lanzando una excepción.
+ Pepita y Pepón al querer volar deben tener suficiente energia, si no se amotinan y no te vuelan nada, lanzando una excepción.
   
 Se pide 
-* Implementar las validacionesa y consultas correspondientes realizando las modificaciones a los objetos ya resueltos para garantizar que un ave no puede volar bajo dada condiciones. 
+* Implementar las validacionesa y consultas correspondientes realizando las modificaciones a los objetos ya resueltos para garantizar que un ave solo puede volar bajo las condiciones dadas o lance una excepción. 
 
 Ejemplos: 
  Suponiendo que Pepita tiene energia 100 y Pepón 30.
@@ -59,8 +59,8 @@ Se pide
 Ejemplos: 
  Suponiendo que Pepón tiene 30 de energia y comió manzana la última vez.
  
- * Puede comer alpiste, quedando su energia en 40. Pero ai luego intenta comer alpiste nuevamente no puede, quedando em 40 su energia.
- * Si luego come manzana lo hace sin problema, pero luego no puede comer manzana otra vez, pero sí alpiste.
+ * Puede comer alpiste, quedando su energia en 40. Pero si luego intenta comer alpiste nuevamente NO PUEDE, quedando en 40 su energia.
+ * Si luego come manzana lo hace sin problema, pero luego NO PUEDE comer manzana otra vez, pero sí alpiste.
  
 ## Ejercicio BONUS con colecciones: Milena la entrenadora
 
