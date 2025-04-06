@@ -33,15 +33,16 @@ Ejemplos:
 
 ### Cenas
 
-Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de veces que Roque dio de alimentar a su ave desde que es la suya (pensar como hacer para recordar este dato y que pasa al cambiar de ave).
+Entiende el mensaje *cenas* sin parámetros, el cual devuelve la cantidad de veces que Roque alimentó a su ave desde que es la suya (pensar como hacer para recordar este dato y que pasa al cambiar de ave).
 
 
 ## Ejercicio 3: Excepciones al volar
 Las aves cada una tiene sus virtudes y defectos, por lo que a veces no pueden hacer lo que se les pide.
- Pepita y Pepón al querer volar deben tener suficiente energia, si no se amotinan y no te vuelan nada, lanzando una excepción.
+Pepita y Pepón al querer volar deben tener suficiente energía, si no no pueden cumplir con la responsabilidad que se les pide. 
+Cuando un objeto no puede cumplir con su responsabilidad debe lanzar una excepción.
   
 Se pide 
-* Implementar las validacionesa y consultas correspondientes realizando las modificaciones a los objetos ya resueltos para garantizar que un ave solo puede volar bajo las condiciones dadas o lance una excepción. 
+* Implementar las validaciones y consultas correspondientes realizando las modificaciones a los objetos ya resueltos para garantizar que un ave solo puede volar bajo las condiciones dadas o lance una excepción. 
 
 Ejemplos: 
  Suponiendo que Pepita tiene energia 100 y Pepón 30.
@@ -51,7 +52,7 @@ Ejemplos:
  * Ninguna puede volar 100 kms.
 
 ## Ejercicio BONUS: Excepciones al comer
- A Pepón le gusta alimentarce de manera variada y balanceada, por lo que solo come variado. Si se le da de comer lo mismo que comió la última vez se niega. Por defecto comió manzana la última vez.
+ A Pepón le gusta alimentarse de manera variada y balanceada, por lo que solo come variado. Si se le da de comer lo mismo que comió la última vez se niega. Al iniciar el sistema se sabe que pepón comió manzana la última vez.
 
 Se pide 
 * Implementar las validacionesa y consultas correspondientes realizando las modificaciones en Pepón, para garantizar que no puede comer la misma comida que comió la última vez.
@@ -61,6 +62,10 @@ Ejemplos:
  
  * Puede comer alpiste, quedando su energia en 40. Pero si luego intenta comer alpiste nuevamente NO PUEDE, quedando en 40 su energia.
  * Si luego come manzana lo hace sin problema, pero luego NO PUEDE comer manzana otra vez, pero sí alpiste.
+
+### Que pasa con las cenas?
+Pensar (y modificar si hace falta) que sucede con la cantidad de cenas que contesta roque cuando le da de comer dos veces seguidas a pepón.
+¿Debe devolver 1 o 2?  ¿Cuál era la responsabilidad del mensaje `cenas()`? ¿Cuántas veces la cumplió?
  
 ## Ejercicio BONUS con colecciones: Milena la entrenadora
 
